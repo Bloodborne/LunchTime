@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB03C82E1AEA34C300E9761D /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB03C82D1AEA34C300E9761D /* CoreDataTableViewController.m */; };
+		EB03C8311AEA353E00E9761D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB03C82F1AEA353E00E9761D /* Model.xcdatamodeld */; };
 		EB24204D1AE953DA002ABE68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24204C1AE953DA002ABE68 /* Foundation.framework */; };
 		EB24204F1AE953DA002ABE68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24204E1AE953DA002ABE68 /* CoreGraphics.framework */; };
 		EB2420511AE953DA002ABE68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2420501AE953DA002ABE68 /* UIKit.framework */; };
@@ -15,13 +17,19 @@
 		EB24205D1AE953DA002ABE68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24205C1AE953DA002ABE68 /* AppDelegate.m */; };
 		EB2420601AE953DA002ABE68 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB24205E1AE953DA002ABE68 /* Main_iPhone.storyboard */; };
 		EB2420631AE953DA002ABE68 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2420611AE953DA002ABE68 /* Main_iPad.storyboard */; };
-		EB2420661AE953DA002ABE68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2420651AE953DA002ABE68 /* ViewController.m */; };
 		EB2420681AE953DA002ABE68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2420671AE953DA002ABE68 /* Images.xcassets */; };
 		EB24206F1AE953DA002ABE68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24206E1AE953DA002ABE68 /* XCTest.framework */; };
 		EB2420701AE953DA002ABE68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24204C1AE953DA002ABE68 /* Foundation.framework */; };
 		EB2420711AE953DA002ABE68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2420501AE953DA002ABE68 /* UIKit.framework */; };
 		EB2420791AE953DA002ABE68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB2420771AE953DA002ABE68 /* InfoPlist.strings */; };
 		EB24207B1AE953DA002ABE68 /* LunchTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24207A1AE953DA002ABE68 /* LunchTimeTests.m */; };
+		EB8121AD1AEA38310005523B /* FoodEvent+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8121AC1AEA38310005523B /* FoodEvent+Create.m */; };
+		EB8121B01AEA384B0005523B /* DetailedFood+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8121AF1AEA384B0005523B /* DetailedFood+Create.m */; };
+		EBDB3E5A1AEBC8F00088B602 /* FoodEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E591AEBC8F00088B602 /* FoodEventTableViewController.m */; };
+		EBDB3E5D1AEBC8FD0088B602 /* DetailFoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E5C1AEBC8FD0088B602 /* DetailFoodTableViewController.m */; };
+		EBDB3E631AEBD6390088B602 /* AddFoodEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E621AEBD6390088B602 /* AddFoodEventViewController.m */; };
+		EBE8F8B01AECB6FA00D74A98 /* FoodEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8F8AF1AECB6FA00D74A98 /* FoodEvent.m */; };
+		EBE8F8B31AECB6FA00D74A98 /* DetailedFood.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8F8B21AECB6FA00D74A98 /* DetailedFood.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB03C82C1AEA34C300E9761D /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		EB03C82D1AEA34C300E9761D /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		EB03C8301AEA353E00E9761D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		EB2420491AE953DA002ABE68 /* LunchTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB24204C1AE953DA002ABE68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB24204E1AE953DA002ABE68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +58,27 @@
 		EB24205C1AE953DA002ABE68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB24205F1AE953DA002ABE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		EB2420621AE953DA002ABE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		EB2420641AE953DA002ABE68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB2420651AE953DA002ABE68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB2420671AE953DA002ABE68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB24206D1AE953DA002ABE68 /* LunchTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB24206E1AE953DA002ABE68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EB2420761AE953DA002ABE68 /* LunchTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LunchTimeTests-Info.plist"; sourceTree = "<group>"; };
 		EB2420781AE953DA002ABE68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB24207A1AE953DA002ABE68 /* LunchTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunchTimeTests.m; sourceTree = "<group>"; };
+		EB8121AB1AEA38310005523B /* FoodEvent+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FoodEvent+Create.h"; sourceTree = "<group>"; };
+		EB8121AC1AEA38310005523B /* FoodEvent+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FoodEvent+Create.m"; sourceTree = "<group>"; };
+		EB8121AE1AEA384B0005523B /* DetailedFood+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DetailedFood+Create.h"; sourceTree = "<group>"; };
+		EB8121AF1AEA384B0005523B /* DetailedFood+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DetailedFood+Create.m"; sourceTree = "<group>"; };
+		EB8121B21AEA3F2E0005523B /* FoodDatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FoodDatabaseAvailability.h; path = ../FoodDatabaseAvailability.h; sourceTree = "<group>"; };
+		EBDB3E581AEBC8F00088B602 /* FoodEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodEventTableViewController.h; sourceTree = "<group>"; };
+		EBDB3E591AEBC8F00088B602 /* FoodEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodEventTableViewController.m; sourceTree = "<group>"; };
+		EBDB3E5B1AEBC8FD0088B602 /* DetailFoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailFoodTableViewController.h; path = ../DetailFoodTableViewController.h; sourceTree = "<group>"; };
+		EBDB3E5C1AEBC8FD0088B602 /* DetailFoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailFoodTableViewController.m; path = ../DetailFoodTableViewController.m; sourceTree = "<group>"; };
+		EBDB3E611AEBD6390088B602 /* AddFoodEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFoodEventViewController.h; sourceTree = "<group>"; };
+		EBDB3E621AEBD6390088B602 /* AddFoodEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFoodEventViewController.m; sourceTree = "<group>"; };
+		EBE8F8AE1AECB6FA00D74A98 /* FoodEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodEvent.h; sourceTree = "<group>"; };
+		EBE8F8AF1AECB6FA00D74A98 /* FoodEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodEvent.m; sourceTree = "<group>"; };
+		EBE8F8B11AECB6FA00D74A98 /* DetailedFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedFood.h; sourceTree = "<group>"; };
+		EBE8F8B21AECB6FA00D74A98 /* DetailedFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedFood.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +105,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB03C82B1AEA34C300E9761D /* CoreDataTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB03C82C1AEA34C300E9761D /* CoreDataTableViewController.h */,
+				EB03C82D1AEA34C300E9761D /* CoreDataTableViewController.m */,
+			);
+			path = CoreDataTableViewController;
+			sourceTree = "<group>";
+		};
 		EB2420401AE953DA002ABE68 = {
 			isa = PBXGroup;
 			children = (
 				EB2420521AE953DA002ABE68 /* LunchTime */,
-				EB2420741AE953DA002ABE68 /* LunchTimeTests */,
 				EB24204B1AE953DA002ABE68 /* Frameworks */,
 				EB24204A1AE953DA002ABE68 /* Products */,
 			);
@@ -116,12 +148,19 @@
 			children = (
 				EB24205B1AE953DA002ABE68 /* AppDelegate.h */,
 				EB24205C1AE953DA002ABE68 /* AppDelegate.m */,
-				EB24205E1AE953DA002ABE68 /* Main_iPhone.storyboard */,
-				EB2420611AE953DA002ABE68 /* Main_iPad.storyboard */,
-				EB2420641AE953DA002ABE68 /* ViewController.h */,
-				EB2420651AE953DA002ABE68 /* ViewController.m */,
+				EB8121B21AEA3F2E0005523B /* FoodDatabaseAvailability.h */,
+				EBDB3E581AEBC8F00088B602 /* FoodEventTableViewController.h */,
+				EBDB3E591AEBC8F00088B602 /* FoodEventTableViewController.m */,
+				EBDB3E5B1AEBC8FD0088B602 /* DetailFoodTableViewController.h */,
+				EBDB3E5C1AEBC8FD0088B602 /* DetailFoodTableViewController.m */,
+				EBDB3E611AEBD6390088B602 /* AddFoodEventViewController.h */,
+				EBDB3E621AEBD6390088B602 /* AddFoodEventViewController.m */,
+				EBDC33C41AEDDE7D005B7F65 /* View */,
+				EB8121AA1AEA37FA0005523B /* CoreData */,
+				EB03C82B1AEA34C300E9761D /* CoreDataTableViewController */,
 				EB2420671AE953DA002ABE68 /* Images.xcassets */,
 				EB2420531AE953DA002ABE68 /* Supporting Files */,
+				EB2420741AE953DA002ABE68 /* LunchTimeTests */,
 			);
 			path = LunchTime;
 			sourceTree = "<group>";
@@ -144,7 +183,7 @@
 				EB2420751AE953DA002ABE68 /* Supporting Files */,
 			);
 			path = LunchTimeTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		EB2420751AE953DA002ABE68 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -153,6 +192,31 @@
 				EB2420771AE953DA002ABE68 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB8121AA1AEA37FA0005523B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EB03C82F1AEA353E00E9761D /* Model.xcdatamodeld */,
+				EBE8F8B11AECB6FA00D74A98 /* DetailedFood.h */,
+				EBE8F8B21AECB6FA00D74A98 /* DetailedFood.m */,
+				EBE8F8AE1AECB6FA00D74A98 /* FoodEvent.h */,
+				EBE8F8AF1AECB6FA00D74A98 /* FoodEvent.m */,
+				EB8121AE1AEA384B0005523B /* DetailedFood+Create.h */,
+				EB8121AF1AEA384B0005523B /* DetailedFood+Create.m */,
+				EB8121AB1AEA38310005523B /* FoodEvent+Create.h */,
+				EB8121AC1AEA38310005523B /* FoodEvent+Create.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		EBDC33C41AEDDE7D005B7F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB24205E1AE953DA002ABE68 /* Main_iPhone.storyboard */,
+				EB2420611AE953DA002ABE68 /* Main_iPad.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +229,7 @@
 				EB2420451AE953DA002ABE68 /* Sources */,
 				EB2420461AE953DA002ABE68 /* Frameworks */,
 				EB2420471AE953DA002ABE68 /* Resources */,
+				EBE8F8B41AECBAE100D74A98 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -248,14 +313,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EBE8F8B41AECBAE100D74A98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\";\necho ${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent;\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB2420451AE953DA002ABE68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB2420661AE953DA002ABE68 /* ViewController.m in Sources */,
+				EB8121AD1AEA38310005523B /* FoodEvent+Create.m in Sources */,
+				EBDB3E631AEBD6390088B602 /* AddFoodEventViewController.m in Sources */,
+				EBDB3E5D1AEBC8FD0088B602 /* DetailFoodTableViewController.m in Sources */,
+				EB8121B01AEA384B0005523B /* DetailedFood+Create.m in Sources */,
+				EB03C82E1AEA34C300E9761D /* CoreDataTableViewController.m in Sources */,
 				EB24205D1AE953DA002ABE68 /* AppDelegate.m in Sources */,
 				EB2420591AE953DA002ABE68 /* main.m in Sources */,
+				EBDB3E5A1AEBC8F00088B602 /* FoodEventTableViewController.m in Sources */,
+				EB03C8311AEA353E00E9761D /* Model.xcdatamodeld in Sources */,
+				EBE8F8B01AECB6FA00D74A98 /* FoodEvent.m in Sources */,
+				EBE8F8B31AECB6FA00D74A98 /* DetailedFood.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +418,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -368,6 +458,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -390,9 +481,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LunchTime/LunchTime-Prefix.pch";
 				INFOPLIST_FILE = "LunchTime/LunchTime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,9 +496,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LunchTime/LunchTime-Prefix.pch";
 				INFOPLIST_FILE = "LunchTime/LunchTime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +565,7 @@
 				EB2420801AE953DA002ABE68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB2420811AE953DA002ABE68 /* Build configuration list for PBXNativeTarget "LunchTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -478,8 +574,23 @@
 				EB2420831AE953DA002ABE68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB03C82F1AEA353E00E9761D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB03C8301AEA353E00E9761D /* Model.xcdatamodel */,
+			);
+			currentVersion = EB03C8301AEA353E00E9761D /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = CoreDataTableViewController/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EB2420411AE953DA002ABE68 /* Project object */;
 }

@@ -7,11 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "CoreData/CoreData.h"
+#import "FoodDatabaseAvailability.h"
+
+@interface AppDelegate()
+
+@property(nonatomic,strong)NSManagedObjectContext *foodDatabaseContext;
+
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self createManagedObjectContext];
     // Override point for customization after application launch.
     return YES;
 }
@@ -41,6 +50,54 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)setFoodDatabaseContext:(NSManagedObjectContext *)foodDatabaseContext
+{
+    _foodDatabaseContext=foodDatabaseContext;
+    NSDictionary *userInfo=self.foodDatabaseContext?@{FoodDatabaseAvailabilityContext:self.foodDatabaseContext}:nil;
+    [[NSNotificationCenter defaultCenter]postNotificationName:FoodDatabaseAvailabilityNotification
+                                                       object:self
+                                                     userInfo:userInfo];
+}
+
+-(NSManagedObjectContext *)createManagedObjectContext
+{
+    NSFileManager *fileManager=[NSFileManager defaultManager];
+    NSURL *documentDiretory=[[fileManager URLsForDirectory:NSDocumentDirectory
+                                                 inDomains:NSUserDomainMask]firstObject];
+    NSString *documentName=@"LunchTime";
+    NSURL *url=[documentDiretory URLByAppendingPathComponent:documentName];
+    UIManagedDocument *document=[[UIManagedDocument alloc]initWithFileURL:url];
+    NSManagedObjectContext *context;
+    
+    BOOL fileExists=[[NSFileManager defaultManager]fileExistsAtPath:[url path]];
+    if(fileExists)
+    {
+        [document openWithCompletionHandler:^(BOOL success) {
+            if(success) [self documentIsReady:document];
+            else NSLog(@"could not open document");
+        }];
+    }
+    else
+    {
+        [document saveToURL:url
+           forSaveOperation:UIDocumentSaveForCreating
+          completionHandler:^(BOOL success) {
+              if(success) [self documentIsReady:document];
+              else NSLog(@"could not create document at %@",url);
+          }];
+        
+    }
+    return context;
+}
+
+-(void)documentIsReady:(UIManagedDocument *)document
+{
+    if(document.documentState == UIDocumentStateNormal)
+    {
+        self.foodDatabaseContext=document.managedObjectContext;
+    }
 }
 
 @end
