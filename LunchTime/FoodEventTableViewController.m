@@ -12,6 +12,8 @@
 #import "FoodEvent.h"
 #import "DetailedFood.h"
 #import "AddFoodEventViewController.h"
+#import "PhotosByFoodEventMapViewController.h"
+
 
 @interface FoodEventTableViewController ()
 
@@ -47,11 +49,7 @@
                                                  usingBlock:^(NSNotification *note) {
         self.managedObjectContext=note.userInfo[FoodDatabaseAvailabilityContext];
     }];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+
 }
 
 -(void)setManagedObjectContext:(NSManagedObjectContext *)managedObjectContext
@@ -93,11 +91,12 @@
     }
 }
 
-//-(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 //{
-//    return YES;
+//    DetailFoodTableViewController *dftvc=[[DetailFoodTableViewController alloc]init];
+//    FoodEvent *foodEvent = self.fetchedResultsController.fetchedObjects[indexPath.row];
+//    dftvc.foodEvent = foodEvent;
 //}
-
 
 #pragma mark - Navigation
 
@@ -108,39 +107,44 @@
     
     if([segue.destinationViewController isKindOfClass:[DetailFoodTableViewController class]])
     {
-        //DetailFoodTableViewController *dftvc=(DetailFoodTableViewController *)segue.destinationViewController;
-        //dftvc.lunchTime=[NSDate date];
+        DetailFoodTableViewController *dftvc=(DetailFoodTableViewController *)segue.destinationViewController;
+        FoodEvent *foodEvent = self.fetchedResultsController.fetchedObjects[indexPath.row];
+        dftvc.foodEvent = foodEvent;
     }
+    
     else if([segue.destinationViewController isKindOfClass:[AddFoodEventViewController class]])
     {
         AddFoodEventViewController *afevc=(AddFoodEventViewController *)segue.destinationViewController;
         afevc.managedObjectContext=self.managedObjectContext;
         
     }
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
 
-- (void)viewDidAppear:(BOOL)animated
+-(void)prepareForDetailFoodTableViewController
 {
-    [super viewDidAppear:animated];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(contextChanged:)
-                                                 name:NSManagedObjectContextDidSaveNotification
-                                               object:self.managedObjectContext];
+    
 }
 
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:NSManagedObjectContextDidSaveNotification
-                                                  object:self.managedObjectContext];
-    [super viewWillDisappear:animated];
-}
-
-- (void)contextChanged:(NSNotification *)notification
-{
-    [self performFetch];
-}
+//- (void)viewDidAppear:(BOOL)animated
+//{
+//    [super viewDidAppear:animated];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(contextChanged:)
+//                                                 name:NSManagedObjectContextDidSaveNotification
+//                                               object:self.managedObjectContext];
+//}
+//
+//- (void)viewWillDisappear:(BOOL)animated
+//{
+//    [[NSNotificationCenter defaultCenter] removeObserver:self
+//                                                    name:NSManagedObjectContextDidSaveNotification
+//                                                  object:self.managedObjectContext];
+//    [super viewWillDisappear:animated];
+//}
+//
+//- (void)contextChanged:(NSNotification *)notification
+//{
+//    [self performFetch];
+//}
 
 @end

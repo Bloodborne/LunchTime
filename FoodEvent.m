@@ -2,7 +2,7 @@
 //  FoodEvent.m
 //  LunchTime
 //
-//  Created by BloodBorne on 15-4-26.
+//  Created by Nadesico on 15/5/13.
 //  Copyright (c) 2015年 VVV. All rights reserved.
 //
 
@@ -12,11 +12,11 @@
 
 @implementation FoodEvent
 
+@dynamic latitude;
+@dynamic location;
+@dynamic longtitude;
 @dynamic lunchTime;
 @dynamic totalCost;
-@dynamic location;
-@dynamic latitude;
-@dynamic longtitude;
 @dynamic containFoods;
 
 @end

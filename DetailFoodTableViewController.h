@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "CoreDataTableViewController.h"
+#import "FoodEvent.h"
 
 @interface DetailFoodTableViewController : CoreDataTableViewController
 
 @property(nonatomic,strong)NSManagedObjectContext *managedObjectContext;
-@property(nonatomic,strong)NSDate *lunchTime;
+@property(nonatomic,strong)NSString *lunchTime;
+@property(nonatomic,strong)FoodEvent *foodEvent;
 
 @end

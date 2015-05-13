@@ -16,6 +16,7 @@
     newFood.name=food[@"name"];
     newFood.price=food[@"price"];
     newFood.itemkey=food[@"itemkey"];
+    newFood.foodPhoto=food[@"foodPhoto"];
     newFood.foodEvent=foodEvent;
     
     NSLog(@"create food");

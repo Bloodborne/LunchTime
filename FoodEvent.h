@@ -2,7 +2,7 @@
 //  FoodEvent.h
 //  LunchTime
 //
-//  Created by BloodBorne on 15-4-26.
+//  Created by Nadesico on 15/5/13.
 //  Copyright (c) 2015年 VVV. All rights reserved.
 //
 
@@ -13,11 +13,11 @@
 
 @interface FoodEvent : NSManagedObject
 
-@property (nonatomic, retain) NSDate * lunchTime;
-@property (nonatomic, retain) NSNumber * totalCost;
-@property (nonatomic, retain) NSString * location;
 @property (nonatomic, retain) NSNumber * latitude;
+@property (nonatomic, retain) NSString * location;
 @property (nonatomic, retain) NSNumber * longtitude;
+@property (nonatomic, retain) NSString * lunchTime;
+@property (nonatomic, retain) NSNumber * totalCost;
 @property (nonatomic, retain) DetailedFood *containFoods;
 
 @end

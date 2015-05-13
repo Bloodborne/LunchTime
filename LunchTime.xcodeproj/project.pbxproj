@@ -7,8 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C26CCD441B03905B002AE460 /* DetailedFood.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CCD3F1B03905B002AE460 /* DetailedFood.m */; };
+		C26CCD461B03905B002AE460 /* FoodPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CCD431B03905B002AE460 /* FoodPhoto.m */; };
+		C26CCD491B039666002AE460 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C26CCD471B039666002AE460 /* Model.xcdatamodeld */; };
+		C26CCD4C1B039A88002AE460 /* FoodEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CCD4B1B039A88002AE460 /* FoodEvent.m */; };
+		C26CCD591B03A55F002AE460 /* FoodEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CCD4B1B039A88002AE460 /* FoodEvent.m */; };
+		C26CCD5A1B03A55F002AE460 /* DetailedFood.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CCD3F1B03905B002AE460 /* DetailedFood.m */; };
+		C26CCD5B1B03A55F002AE460 /* FoodPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CCD431B03905B002AE460 /* FoodPhoto.m */; };
+		C26CCD5C1B03A5F7002AE460 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C26CCD471B039666002AE460 /* Model.xcdatamodeld */; };
+		C2C020B51B0197AC00E2ECFE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C020B41B0197AC00E2ECFE /* MapKit.framework */; };
+		C2C020BA1B01CB4700E2ECFE /* FoodEvent+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8121AC1AEA38310005523B /* FoodEvent+Create.m */; };
+		C2C020BB1B01CB4700E2ECFE /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F07DFE1B00EDA80005165E /* UIImage+Scale.m */; };
+		C2C020BC1B01CB4700E2ECFE /* AddFoodEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E621AEBD6390088B602 /* AddFoodEventViewController.m */; };
+		C2C020BD1B01CB4700E2ECFE /* DetailFoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E5C1AEBC8FD0088B602 /* DetailFoodTableViewController.m */; };
+		C2C020BE1B01CB4700E2ECFE /* DetailedFood+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8121AF1AEA384B0005523B /* DetailedFood+Create.m */; };
+		C2C020C01B01CB4700E2ECFE /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB03C82D1AEA34C300E9761D /* CoreDataTableViewController.m */; };
+		C2C020C11B01CB4700E2ECFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24205C1AE953DA002ABE68 /* AppDelegate.m */; };
+		C2C020C21B01CB4700E2ECFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2420581AE953DA002ABE68 /* main.m */; };
+		C2C020C31B01CB4700E2ECFE /* FoodEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E591AEBC8F00088B602 /* FoodEventTableViewController.m */; };
+		C2C020C61B01CB4700E2ECFE /* FoodPhoto+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDC33CF1AEE09D5005B7F65 /* FoodPhoto+Create.m */; };
+		C2C020C71B01CB4700E2ECFE /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F07DF41B00D3920005165E /* ImageViewController.m */; };
+		C2C020C81B01CB4700E2ECFE /* PhotosByFoodEventMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F07E011B00F7CB0005165E /* PhotosByFoodEventMapViewController.m */; };
+		C2C020CA1B01CB4700E2ECFE /* FoodEvent+Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F07E041B00F9FF0005165E /* FoodEvent+Annotation.m */; };
+		C2C020CC1B01CB4700E2ECFE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C020B41B0197AC00E2ECFE /* MapKit.framework */; };
+		C2C020CD1B01CB4700E2ECFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24204E1AE953DA002ABE68 /* CoreGraphics.framework */; };
+		C2C020CE1B01CB4700E2ECFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2420501AE953DA002ABE68 /* UIKit.framework */; };
+		C2C020CF1B01CB4700E2ECFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24204C1AE953DA002ABE68 /* Foundation.framework */; };
+		C2C020D11B01CB4700E2ECFE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2420611AE953DA002ABE68 /* Main_iPad.storyboard */; };
+		C2C020D21B01CB4700E2ECFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2420671AE953DA002ABE68 /* Images.xcassets */; };
+		C2C020D31B01CB4700E2ECFE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB24205E1AE953DA002ABE68 /* Main_iPhone.storyboard */; };
+		C2C020D41B01CB4700E2ECFE /* _launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F07DF01B00D2910005165E /* _launchimage.png */; };
+		C2C020D51B01CB4700E2ECFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB2420551AE953DA002ABE68 /* InfoPlist.strings */; };
+		C2F07DF11B00D2910005165E /* _launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F07DF01B00D2910005165E /* _launchimage.png */; };
+		C2F07DF51B00D3920005165E /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F07DF41B00D3920005165E /* ImageViewController.m */; };
+		C2F07DFF1B00EDA80005165E /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F07DFE1B00EDA80005165E /* UIImage+Scale.m */; };
+		C2F07E021B00F7CB0005165E /* PhotosByFoodEventMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F07E011B00F7CB0005165E /* PhotosByFoodEventMapViewController.m */; };
+		C2F07E051B00F9FF0005165E /* FoodEvent+Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F07E041B00F9FF0005165E /* FoodEvent+Annotation.m */; };
 		EB03C82E1AEA34C300E9761D /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB03C82D1AEA34C300E9761D /* CoreDataTableViewController.m */; };
-		EB03C8311AEA353E00E9761D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB03C82F1AEA353E00E9761D /* Model.xcdatamodeld */; };
 		EB24204D1AE953DA002ABE68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24204C1AE953DA002ABE68 /* Foundation.framework */; };
 		EB24204F1AE953DA002ABE68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24204E1AE953DA002ABE68 /* CoreGraphics.framework */; };
 		EB2420511AE953DA002ABE68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2420501AE953DA002ABE68 /* UIKit.framework */; };
@@ -28,8 +63,7 @@
 		EBDB3E5A1AEBC8F00088B602 /* FoodEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E591AEBC8F00088B602 /* FoodEventTableViewController.m */; };
 		EBDB3E5D1AEBC8FD0088B602 /* DetailFoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E5C1AEBC8FD0088B602 /* DetailFoodTableViewController.m */; };
 		EBDB3E631AEBD6390088B602 /* AddFoodEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB3E621AEBD6390088B602 /* AddFoodEventViewController.m */; };
-		EBE8F8B01AECB6FA00D74A98 /* FoodEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8F8AF1AECB6FA00D74A98 /* FoodEvent.m */; };
-		EBE8F8B31AECB6FA00D74A98 /* DetailedFood.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8F8B21AECB6FA00D74A98 /* DetailedFood.m */; };
+		EBDC33D01AEE09D5005B7F65 /* FoodPhoto+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDC33CF1AEE09D5005B7F65 /* FoodPhoto+Create.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +77,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C26CCD3E1B03905B002AE460 /* DetailedFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedFood.h; sourceTree = SOURCE_ROOT; };
+		C26CCD3F1B03905B002AE460 /* DetailedFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedFood.m; sourceTree = SOURCE_ROOT; };
+		C26CCD421B03905B002AE460 /* FoodPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodPhoto.h; sourceTree = SOURCE_ROOT; };
+		C26CCD431B03905B002AE460 /* FoodPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodPhoto.m; sourceTree = SOURCE_ROOT; };
+		C26CCD481B039666002AE460 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C26CCD4A1B039A88002AE460 /* FoodEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodEvent.h; sourceTree = SOURCE_ROOT; };
+		C26CCD4B1B039A88002AE460 /* FoodEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodEvent.m; sourceTree = SOURCE_ROOT; };
+		C2C020B41B0197AC00E2ECFE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C2C020B61B01994E00E2ECFE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2C020DA1B01CB4800E2ECFE /* LunchTime copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LunchTime copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C020DB1B01CB4800E2ECFE /* LunchTime copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LunchTime copy-Info.plist"; path = "/Users/nadesico/Desktop/My APP/LunchTime/LunchTime copy-Info.plist"; sourceTree = "<absolute>"; };
+		C2C1DFD51B03882F0058AB16 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2F07DF01B00D2910005165E /* _launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _launchimage.png; sourceTree = "<group>"; };
+		C2F07DF31B00D3920005165E /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../ImageViewController.h; sourceTree = "<group>"; };
+		C2F07DF41B00D3920005165E /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../ImageViewController.m; sourceTree = "<group>"; };
+		C2F07DFD1B00EDA80005165E /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		C2F07DFE1B00EDA80005165E /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		C2F07E001B00F7CB0005165E /* PhotosByFoodEventMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosByFoodEventMapViewController.h; sourceTree = "<group>"; };
+		C2F07E011B00F7CB0005165E /* PhotosByFoodEventMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosByFoodEventMapViewController.m; sourceTree = "<group>"; };
+		C2F07E031B00F9FF0005165E /* FoodEvent+Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FoodEvent+Annotation.h"; sourceTree = "<group>"; };
+		C2F07E041B00F9FF0005165E /* FoodEvent+Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FoodEvent+Annotation.m"; sourceTree = "<group>"; };
 		EB03C82C1AEA34C300E9761D /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
 		EB03C82D1AEA34C300E9761D /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
-		EB03C8301AEA353E00E9761D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		EB2420491AE953DA002ABE68 /* LunchTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB24204C1AE953DA002ABE68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB24204E1AE953DA002ABE68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,17 +129,27 @@
 		EBDB3E5C1AEBC8FD0088B602 /* DetailFoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailFoodTableViewController.m; path = ../DetailFoodTableViewController.m; sourceTree = "<group>"; };
 		EBDB3E611AEBD6390088B602 /* AddFoodEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFoodEventViewController.h; sourceTree = "<group>"; };
 		EBDB3E621AEBD6390088B602 /* AddFoodEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFoodEventViewController.m; sourceTree = "<group>"; };
-		EBE8F8AE1AECB6FA00D74A98 /* FoodEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodEvent.h; sourceTree = "<group>"; };
-		EBE8F8AF1AECB6FA00D74A98 /* FoodEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodEvent.m; sourceTree = "<group>"; };
-		EBE8F8B11AECB6FA00D74A98 /* DetailedFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedFood.h; sourceTree = "<group>"; };
-		EBE8F8B21AECB6FA00D74A98 /* DetailedFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedFood.m; sourceTree = "<group>"; };
+		EBDC33CE1AEE09D5005B7F65 /* FoodPhoto+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FoodPhoto+Create.h"; sourceTree = "<group>"; };
+		EBDC33CF1AEE09D5005B7F65 /* FoodPhoto+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FoodPhoto+Create.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C2C020CB1B01CB4700E2ECFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C020CC1B01CB4700E2ECFE /* MapKit.framework in Frameworks */,
+				C2C020CD1B01CB4700E2ECFE /* CoreGraphics.framework in Frameworks */,
+				C2C020CE1B01CB4700E2ECFE /* UIKit.framework in Frameworks */,
+				C2C020CF1B01CB4700E2ECFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB2420461AE953DA002ABE68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C020B51B0197AC00E2ECFE /* MapKit.framework in Frameworks */,
 				EB24204F1AE953DA002ABE68 /* CoreGraphics.framework in Frameworks */,
 				EB2420511AE953DA002ABE68 /* UIKit.framework in Frameworks */,
 				EB24204D1AE953DA002ABE68 /* Foundation.framework in Frameworks */,
@@ -105,9 +169,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2F07DFC1B00ED530005165E /* UIimage+Scale */ = {
+			isa = PBXGroup;
+			children = (
+				C2F07DFD1B00EDA80005165E /* UIImage+Scale.h */,
+				C2F07DFE1B00EDA80005165E /* UIImage+Scale.m */,
+			);
+			name = "UIimage+Scale";
+			path = LunchTime;
+			sourceTree = "<group>";
+		};
 		EB03C82B1AEA34C300E9761D /* CoreDataTableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C2F07DF01B00D2910005165E /* _launchimage.png */,
 				EB03C82C1AEA34C300E9761D /* CoreDataTableViewController.h */,
 				EB03C82D1AEA34C300E9761D /* CoreDataTableViewController.m */,
 			);
@@ -117,9 +192,11 @@
 		EB2420401AE953DA002ABE68 = {
 			isa = PBXGroup;
 			children = (
+				C2F07DFC1B00ED530005165E /* UIimage+Scale */,
 				EB2420521AE953DA002ABE68 /* LunchTime */,
 				EB24204B1AE953DA002ABE68 /* Frameworks */,
 				EB24204A1AE953DA002ABE68 /* Products */,
+				C2C020DB1B01CB4800E2ECFE /* LunchTime copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +205,7 @@
 			children = (
 				EB2420491AE953DA002ABE68 /* LunchTime.app */,
 				EB24206D1AE953DA002ABE68 /* LunchTimeTests.xctest */,
+				C2C020DA1B01CB4800E2ECFE /* LunchTime copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +213,9 @@
 		EB24204B1AE953DA002ABE68 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2C1DFD51B03882F0058AB16 /* CoreData.framework */,
+				C2C020B61B01994E00E2ECFE /* CoreLocation.framework */,
+				C2C020B41B0197AC00E2ECFE /* MapKit.framework */,
 				EB24204C1AE953DA002ABE68 /* Foundation.framework */,
 				EB24204E1AE953DA002ABE68 /* CoreGraphics.framework */,
 				EB2420501AE953DA002ABE68 /* UIKit.framework */,
@@ -146,15 +227,17 @@
 		EB2420521AE953DA002ABE68 /* LunchTime */ = {
 			isa = PBXGroup;
 			children = (
-				EB24205B1AE953DA002ABE68 /* AppDelegate.h */,
-				EB24205C1AE953DA002ABE68 /* AppDelegate.m */,
 				EB8121B21AEA3F2E0005523B /* FoodDatabaseAvailability.h */,
 				EBDB3E581AEBC8F00088B602 /* FoodEventTableViewController.h */,
 				EBDB3E591AEBC8F00088B602 /* FoodEventTableViewController.m */,
-				EBDB3E5B1AEBC8FD0088B602 /* DetailFoodTableViewController.h */,
-				EBDB3E5C1AEBC8FD0088B602 /* DetailFoodTableViewController.m */,
 				EBDB3E611AEBD6390088B602 /* AddFoodEventViewController.h */,
 				EBDB3E621AEBD6390088B602 /* AddFoodEventViewController.m */,
+				EBDB3E5B1AEBC8FD0088B602 /* DetailFoodTableViewController.h */,
+				EBDB3E5C1AEBC8FD0088B602 /* DetailFoodTableViewController.m */,
+				C2F07DF31B00D3920005165E /* ImageViewController.h */,
+				C2F07DF41B00D3920005165E /* ImageViewController.m */,
+				C2F07E001B00F7CB0005165E /* PhotosByFoodEventMapViewController.h */,
+				C2F07E011B00F7CB0005165E /* PhotosByFoodEventMapViewController.m */,
 				EBDC33C41AEDDE7D005B7F65 /* View */,
 				EB8121AA1AEA37FA0005523B /* CoreData */,
 				EB03C82B1AEA34C300E9761D /* CoreDataTableViewController */,
@@ -168,6 +251,8 @@
 		EB2420531AE953DA002ABE68 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB24205B1AE953DA002ABE68 /* AppDelegate.h */,
+				EB24205C1AE953DA002ABE68 /* AppDelegate.m */,
 				EB2420541AE953DA002ABE68 /* LunchTime-Info.plist */,
 				EB2420551AE953DA002ABE68 /* InfoPlist.strings */,
 				EB2420581AE953DA002ABE68 /* main.m */,
@@ -197,15 +282,21 @@
 		EB8121AA1AEA37FA0005523B /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				EB03C82F1AEA353E00E9761D /* Model.xcdatamodeld */,
-				EBE8F8B11AECB6FA00D74A98 /* DetailedFood.h */,
-				EBE8F8B21AECB6FA00D74A98 /* DetailedFood.m */,
-				EBE8F8AE1AECB6FA00D74A98 /* FoodEvent.h */,
-				EBE8F8AF1AECB6FA00D74A98 /* FoodEvent.m */,
+				C26CCD471B039666002AE460 /* Model.xcdatamodeld */,
+				C26CCD4A1B039A88002AE460 /* FoodEvent.h */,
+				C26CCD4B1B039A88002AE460 /* FoodEvent.m */,
+				C26CCD3E1B03905B002AE460 /* DetailedFood.h */,
+				C26CCD3F1B03905B002AE460 /* DetailedFood.m */,
+				C26CCD421B03905B002AE460 /* FoodPhoto.h */,
+				C26CCD431B03905B002AE460 /* FoodPhoto.m */,
 				EB8121AE1AEA384B0005523B /* DetailedFood+Create.h */,
 				EB8121AF1AEA384B0005523B /* DetailedFood+Create.m */,
+				EBDC33CE1AEE09D5005B7F65 /* FoodPhoto+Create.h */,
+				EBDC33CF1AEE09D5005B7F65 /* FoodPhoto+Create.m */,
 				EB8121AB1AEA38310005523B /* FoodEvent+Create.h */,
 				EB8121AC1AEA38310005523B /* FoodEvent+Create.m */,
+				C2F07E031B00F9FF0005165E /* FoodEvent+Annotation.h */,
+				C2F07E041B00F9FF0005165E /* FoodEvent+Annotation.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -222,6 +313,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C2C020B81B01CB4700E2ECFE /* LunchTime copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C020D71B01CB4700E2ECFE /* Build configuration list for PBXNativeTarget "LunchTime copy" */;
+			buildPhases = (
+				C2C020B91B01CB4700E2ECFE /* Sources */,
+				C2C020CB1B01CB4700E2ECFE /* Frameworks */,
+				C2C020D01B01CB4700E2ECFE /* Resources */,
+				C2C020D61B01CB4700E2ECFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LunchTime copy";
+			productName = LunchTime;
+			productReference = C2C020DA1B01CB4800E2ECFE /* LunchTime copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		EB2420481AE953DA002ABE68 /* LunchTime */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB24207E1AE953DA002ABE68 /* Build configuration list for PBXNativeTarget "LunchTime" */;
@@ -287,11 +396,24 @@
 			targets = (
 				EB2420481AE953DA002ABE68 /* LunchTime */,
 				EB24206C1AE953DA002ABE68 /* LunchTimeTests */,
+				C2C020B81B01CB4700E2ECFE /* LunchTime copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C2C020D01B01CB4700E2ECFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C020D11B01CB4700E2ECFE /* Main_iPad.storyboard in Resources */,
+				C2C020D21B01CB4700E2ECFE /* Images.xcassets in Resources */,
+				C2C020D31B01CB4700E2ECFE /* Main_iPhone.storyboard in Resources */,
+				C2C020D41B01CB4700E2ECFE /* _launchimage.png in Resources */,
+				C2C020D51B01CB4700E2ECFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB2420471AE953DA002ABE68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +421,7 @@
 				EB2420631AE953DA002ABE68 /* Main_iPad.storyboard in Resources */,
 				EB2420681AE953DA002ABE68 /* Images.xcassets in Resources */,
 				EB2420601AE953DA002ABE68 /* Main_iPhone.storyboard in Resources */,
+				C2F07DF11B00D2910005165E /* _launchimage.png in Resources */,
 				EB2420571AE953DA002ABE68 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +437,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		C2C020D61B01CB4700E2ECFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\";\necho ${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent;\nfi";
+		};
 		EBE8F8B41AECBAE100D74A98 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,21 +466,51 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C2C020B91B01CB4700E2ECFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26CCD5C1B03A5F7002AE460 /* Model.xcdatamodeld in Sources */,
+				C26CCD591B03A55F002AE460 /* FoodEvent.m in Sources */,
+				C26CCD5A1B03A55F002AE460 /* DetailedFood.m in Sources */,
+				C26CCD5B1B03A55F002AE460 /* FoodPhoto.m in Sources */,
+				C2C020BA1B01CB4700E2ECFE /* FoodEvent+Create.m in Sources */,
+				C2C020BB1B01CB4700E2ECFE /* UIImage+Scale.m in Sources */,
+				C2C020BC1B01CB4700E2ECFE /* AddFoodEventViewController.m in Sources */,
+				C2C020BD1B01CB4700E2ECFE /* DetailFoodTableViewController.m in Sources */,
+				C2C020BE1B01CB4700E2ECFE /* DetailedFood+Create.m in Sources */,
+				C2C020C01B01CB4700E2ECFE /* CoreDataTableViewController.m in Sources */,
+				C2C020C11B01CB4700E2ECFE /* AppDelegate.m in Sources */,
+				C2C020C21B01CB4700E2ECFE /* main.m in Sources */,
+				C2C020C31B01CB4700E2ECFE /* FoodEventTableViewController.m in Sources */,
+				C2C020C61B01CB4700E2ECFE /* FoodPhoto+Create.m in Sources */,
+				C2C020C71B01CB4700E2ECFE /* ImageViewController.m in Sources */,
+				C2C020C81B01CB4700E2ECFE /* PhotosByFoodEventMapViewController.m in Sources */,
+				C2C020CA1B01CB4700E2ECFE /* FoodEvent+Annotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB2420451AE953DA002ABE68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26CCD461B03905B002AE460 /* FoodPhoto.m in Sources */,
+				C26CCD4C1B039A88002AE460 /* FoodEvent.m in Sources */,
 				EB8121AD1AEA38310005523B /* FoodEvent+Create.m in Sources */,
+				C2F07DFF1B00EDA80005165E /* UIImage+Scale.m in Sources */,
 				EBDB3E631AEBD6390088B602 /* AddFoodEventViewController.m in Sources */,
 				EBDB3E5D1AEBC8FD0088B602 /* DetailFoodTableViewController.m in Sources */,
+				C26CCD441B03905B002AE460 /* DetailedFood.m in Sources */,
 				EB8121B01AEA384B0005523B /* DetailedFood+Create.m in Sources */,
 				EB03C82E1AEA34C300E9761D /* CoreDataTableViewController.m in Sources */,
 				EB24205D1AE953DA002ABE68 /* AppDelegate.m in Sources */,
 				EB2420591AE953DA002ABE68 /* main.m in Sources */,
 				EBDB3E5A1AEBC8F00088B602 /* FoodEventTableViewController.m in Sources */,
-				EB03C8311AEA353E00E9761D /* Model.xcdatamodeld in Sources */,
-				EBE8F8B01AECB6FA00D74A98 /* FoodEvent.m in Sources */,
-				EBE8F8B31AECB6FA00D74A98 /* DetailedFood.m in Sources */,
+				EBDC33D01AEE09D5005B7F65 /* FoodPhoto+Create.m in Sources */,
+				C2F07DF51B00D3920005165E /* ImageViewController.m in Sources */,
+				C2F07E021B00F7CB0005165E /* PhotosByFoodEventMapViewController.m in Sources */,
+				C26CCD491B039666002AE460 /* Model.xcdatamodeld in Sources */,
+				C2F07E051B00F9FF0005165E /* FoodEvent+Annotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +568,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C2C020D81B01CB4700E2ECFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchTime/LunchTime-Prefix.pch";
+				INFOPLIST_FILE = "LunchTime copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "LunchTime copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2C020D91B01CB4700E2ECFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchTime/LunchTime-Prefix.pch";
+				INFOPLIST_FILE = "LunchTime copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "LunchTime copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		EB24207C1AE953DA002ABE68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -510,6 +706,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LunchTime.app/LunchTime";
+				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +729,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LunchTime.app/LunchTime";
+				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -549,6 +747,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C2C020D71B01CB4700E2ECFE /* Build configuration list for PBXNativeTarget "LunchTime copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C020D81B01CB4700E2ECFE /* Debug */,
+				C2C020D91B01CB4700E2ECFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EB2420441AE953DA002ABE68 /* Build configuration list for PBXProject "LunchTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -579,12 +786,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EB03C82F1AEA353E00E9761D /* Model.xcdatamodeld */ = {
+		C26CCD471B039666002AE460 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EB03C8301AEA353E00E9761D /* Model.xcdatamodel */,
+				C26CCD481B039666002AE460 /* Model.xcdatamodel */,
 			);
-			currentVersion = EB03C8301AEA353E00E9761D /* Model.xcdatamodel */;
+			currentVersion = C26CCD481B039666002AE460 /* Model.xcdatamodel */;
 			name = Model.xcdatamodeld;
 			path = CoreDataTableViewController/Model.xcdatamodeld;
 			sourceTree = "<group>";

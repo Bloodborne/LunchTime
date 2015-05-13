@@ -2,12 +2,13 @@
 //  DetailedFood.m
 //  LunchTime
 //
-//  Created by BloodBorne on 15-4-26.
+//  Created by Nadesico on 15/5/13.
 //  Copyright (c) 2015年 VVV. All rights reserved.
 //
 
 #import "DetailedFood.h"
 #import "FoodEvent.h"
+#import "FoodPhoto.h"
 
 
 @implementation DetailedFood
@@ -16,5 +17,6 @@
 @dynamic name;
 @dynamic price;
 @dynamic foodEvent;
+@dynamic foodPhoto;
 
 @end

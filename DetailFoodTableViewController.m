@@ -8,37 +8,19 @@
 
 #import "DetailFoodTableViewController.h"
 #import "DetailedFood.h"
+#import "FoodPhoto.h"
+#import "ImageViewController.h"
 
 @interface DetailFoodTableViewController ()
-
-@property(nonatomic)NSInteger numberOfFood;
 
 @end
 
 @implementation DetailFoodTableViewController
 
--(NSDate *)lunchTime
-{
-    if(!_lunchTime) _lunchTime=[[NSDate alloc]init];
-    return _lunchTime;
-}
-
-
-//-(NSInteger)numberOfFood
-//{
-//    if(!_numberOfFood) _numberOfFood=1;
-//    return _numberOfFood;
-//}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title=[NSString stringWithFormat:@"%@",self.lunchTime];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.title= self.foodEvent.lunchTime;
 }
 
 #pragma mark - Table view data source
@@ -53,24 +35,33 @@
 {
 //#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return self.numberOfFood;
+    return 1;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"food detail" forIndexPath:indexPath];
+    DetailedFood *food = self.foodEvent.containFoods;
     
-    // Configure the cell...
+    UIImage *image = [UIImage imageWithData:food.foodPhoto.imageData];
+    
+    cell.textLabel.text = food.name;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@",food.price];
+    cell.imageView.image = image;
+    
     
     return cell;
 }
 
-//- (IBAction)addFood:(id)sender
-//{
-//    [DetailedFood createFoodInManagedObjectContext:self.managedObjectContext];
-//    [self.tableView reloadData];
-//}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqualToString:@"show photo"])
+    {
+        ImageViewController *ivc = (ImageViewController *)segue.destinationViewController;
+        ivc.imageData = self.foodEvent.containFoods.foodPhoto.imageData;
+    }
+}
 
 
 
